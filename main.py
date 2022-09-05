@@ -33,9 +33,6 @@ with open('params.json') as f:
         params_list = i['params']
         print(params_list)
 
-# hoscode = '11138'
-# table_name = 'hosxp_school'
-
 for i in params_list:
     table_name = i
     for j in hoscode_list:
